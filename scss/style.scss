@@ -578,7 +578,7 @@ button {
   margin-top: 20px;
   display: none;
 
-  @include xl2 {
+  @include xl {
     display: block;
   }
 }
