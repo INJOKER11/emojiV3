@@ -1,5 +1,7 @@
-$font : 'Montserrat', sans-serif;
-$bd_body : #262626 ;
+@import "variables";
+@import "functions";
+@import "mixins";
+
 
 
 * {
