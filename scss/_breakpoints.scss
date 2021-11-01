@@ -11,6 +11,12 @@
   }
 }
 
+@mixin l {
+  @include media-breakpoint-up(l) {
+    @content;
+  }
+}
+
 @mixin xl {
   @include media-breakpoint-up(xl) {
     @content;

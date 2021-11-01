@@ -576,10 +576,10 @@ button {
 .cart_wrapper_right {
   margin-left: 30px ;
   margin-top: 20px;
+  display: none;
 
-  .cart_wrapper {
-
-
+  @include xl2 {
+    display: block;
   }
 }
 .cart_card  {
