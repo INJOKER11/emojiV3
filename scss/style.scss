@@ -6,7 +6,6 @@ $bd_body : #262626 ;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1920px;
 }
 
 a {
@@ -26,7 +25,6 @@ ul {
 
 body {
 
-  max-width: 1920px;
   background: $bd_body;
 
 }
@@ -46,7 +44,7 @@ button {
 
 .header_main {
   display: flex;
-  max-width: 1920px;
+
   width: 100%;
   Height: 122px;
   align-items: center;
@@ -59,6 +57,9 @@ button {
   display: flex;
   text-align: center;
   align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 
 }
 
@@ -227,6 +228,7 @@ button {
 
 .main_content {
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 .container {
@@ -270,7 +272,7 @@ button {
 
 .all_categories {
 
-  & {
+  p {
     font-family: $font;
     font-style: normal;
     font-weight: bold;
@@ -291,7 +293,7 @@ button {
     height: 12px;
     background: none;
   }
-  button {
+  .see_all_nav{
 
     padding: 0;
     margin: 0;
@@ -300,7 +302,7 @@ button {
     outline: none!important;
     cursor: pointer;
   }
-  form {
+  .form_cat {
 
     width: 18px;
     height: 12px;
@@ -308,7 +310,7 @@ button {
     overflow: hidden;
 
   }
-  p {
+  .see_all {
     font-family: $font;
     font-style: normal;
     font-weight: normal;
@@ -342,7 +344,7 @@ button {
 
 
 
-  button {
+  .category_btn {
     padding: 0;
     margin: 0;
     border: none;
@@ -355,10 +357,8 @@ button {
 
   }
 
-  img {
 
-  }
-  div {
+  .category_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -368,7 +368,7 @@ button {
     height: 190px;
 
   }
-  p {
+  .category_name {
     font-family: $font;
     font-style: normal;
     font-weight: normal;
@@ -379,6 +379,16 @@ button {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 12px;
+  }
+  .category_img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
   }
 }
 

@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1920px;
 }
 
 a {
@@ -18,7 +17,6 @@ ul li {
 }
 
 body {
-  max-width: 1920px;
   background: #262626;
 }
 
@@ -34,7 +32,6 @@ button {
 /* основа */
 .header_main {
   display: flex;
-  max-width: 1920px;
   width: 100%;
   Height: 122px;
   align-items: center;
@@ -46,6 +43,9 @@ button {
   display: flex;
   text-align: center;
   align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .header_nav {
@@ -188,6 +188,7 @@ button {
 
 .main_content {
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 .container {
@@ -217,7 +218,7 @@ button {
   width: 1410px;
 }
 
-.all_categories {
+.all_categories p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -236,7 +237,7 @@ button {
   height: 12px;
   background: none;
 }
-.all_categories_nav button {
+.all_categories_nav .see_all_nav {
   padding: 0;
   margin: 0;
   border: none;
@@ -244,13 +245,13 @@ button {
   outline: none !important;
   cursor: pointer;
 }
-.all_categories_nav form {
+.all_categories_nav .form_cat {
   width: 18px;
   height: 12px;
   align-items: center;
   overflow: hidden;
 }
-.all_categories_nav p {
+.all_categories_nav .see_all {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -275,7 +276,7 @@ button {
   border-radius: 20px;
   margin-right: 20px;
 }
-.category_form button {
+.category_form .category_btn {
   padding: 0;
   margin: 0;
   border: none;
@@ -286,7 +287,7 @@ button {
   height: 190px;
   border-radius: 20px;
 }
-.category_form div {
+.category_form .category_card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,7 +296,7 @@ button {
   width: 138px;
   height: 190px;
 }
-.category_form p {
+.category_form .category_name {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -306,6 +307,16 @@ button {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
+  padding-bottom: 12px;
+}
+.category_form .category_img {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .products {
